@@ -7,6 +7,7 @@
         <p class="inline sm:block">Napište nám.</p>
       </div>
       <form
+        netlify
         name="Registrační formulář"
         method="post"
         action="/success"

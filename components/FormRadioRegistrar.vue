@@ -16,7 +16,8 @@
 
 <script setup>
 const notificationMethods = [
-  { id: 'owner', title: 'Majitel/provozovatel*ka sauny' },
-  { id: 'visitor', title: 'Návštěvník*nice sauny' },
+  { id: 'majitel', title: 'Majitel/provozovatel*ka sauny' },
+  { id: 'navstevnik', title: 'Návštěvník*nice sauny' },
+  { id: 'planujici', title: 'Člověk s plánem otevřít saunu' },
 ]
 </script>

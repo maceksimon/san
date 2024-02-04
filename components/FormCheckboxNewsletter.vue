@@ -8,8 +8,9 @@
             class="h-4 w-4 rounded border-gray-300 text-amber-600 focus:ring-amber-600" checked />
         </div>
         <div class="ml-3 text-sm leading-6">
-          <label for="comments" class="font-medium text-gray-900">Newsletter</label>
-          <p id="comments-description" class="text-gray-500">Chci dostávat měsíční Sann newsletter.</p>
+          <label for="comments" class="font-medium text-gray-900">
+            Chci, aby si do mojí schránky našel cestu SANN newsletter.
+          </label>
         </div>
       </div>
     </div>

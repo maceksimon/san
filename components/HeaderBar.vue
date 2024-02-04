@@ -1,9 +1,9 @@
 <template>
   <header class="bg-white">
-    <nav class="mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8 lg:pt-10" aria-label="Global">
+    <nav class="mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8 lg:py-8" aria-label="Global">
       <a href="#" class="-m-1.5 p-1.5">
         <span class="sr-only">Your Company</span>
-        <img class="h-12 w-auto" src="/images/red-sun.webp" alt="" />
+        <img class="h-24 w-auto" src="/images/sann-logo-full.webp" alt="" />
       </a>
       <div class="flex flex-1">
         <div class="hidden lg:flex lg:gap-x-12">

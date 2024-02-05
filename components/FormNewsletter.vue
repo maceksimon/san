@@ -1,6 +1,6 @@
 <template>
-  <div class="bg-white pb-16">
-    <div class="mx-auto max-w-7xl px-6 lg:px-8">
+  <div class="pb-16">
+    <div class="relative mx-auto max-w-7xl px-6 lg:px-8">
       <form netlify name="Registrační formulář" method="post" action="/success" data-netlify="true"
         data-netlify-honeypot="bot-field" class="mt-10 grid md:grid-cols-2 gap-y-8 gap-x-16">
         <div class="space-y-8">
@@ -27,6 +27,7 @@
           </p>
         </div>
       </form>
+      <img class="absolute hidden lg:block right-4 lg:top-[160px] w-52 h-auto pointer-events-none" src="/images/eyes.webp" alt="" aria-hidden="true" />
     </div>
   </div>
 </template>

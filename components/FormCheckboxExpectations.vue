@@ -5,7 +5,7 @@
       <legend class="sr-only">Vyberte možnost, která nejlépe odpovídá vašim očekáváním</legend>
       <div class="space-y-4">
         <div v-for="option in expecationOptions" :key="option.id" class="flex items-center">
-          <input v-model="expectations" :id="option.id" name="expectation-options" type="checkbox" class="h-4 w-4 rounded border-gray-300 text-amber-600 focus:ring-amber-600" :value="option.id" />
+          <input v-model="expectations" :id="option.id" name="expectation-options" type="checkbox" class="h-4 w-4 rounded border-gray-400 text-amber-600 focus:ring-amber-600" :value="option.id" />
           <label :for="option.id" class="ml-3 block text-sm font-medium leading-6 text-gray-900">
             {{ option.title }}
           </label>

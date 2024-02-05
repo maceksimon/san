@@ -27,7 +27,7 @@ const expecationOptions = [
   { id: 'propojeni', title: 'Propojení se saunařskou komunitou' },
   { id: 'podpora', title: 'Podporu a sdílení informací' },
   { id: 'zabava', title: 'Zábavu a pot' },
-  { id: 'other', title: 'Něco úplně jiného:' },
+  { id: 'jina', title: 'Něco úplně jiného:' },
 ]
 
 const expectations = ref([])

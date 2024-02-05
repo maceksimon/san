@@ -11,7 +11,7 @@
           </label>
         </div>
       </div>
-      <div v-show="expectations.includes('other')" class="mt-4">
+      <div v-show="expectations.includes('jina')" class="mt-4">
         <label for="expectation" class="sr-only">Vlastní popis očekávání</label>
         <div class="mt-2">
           <input type="text" name="expectation" id="expectation"

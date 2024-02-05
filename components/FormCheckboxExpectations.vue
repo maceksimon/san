@@ -1,7 +1,7 @@
 <template>
   <div>
-    <label class="text-base font-semibold text-gray-900">Od SANN očekávám:</label>
-    <fieldset class="mt-4">
+    <label for="field-expectation" class="text-base font-semibold text-gray-900">Od SANN očekávám:</label>
+    <fieldset id="field-expectation" class="mt-4">
       <legend class="sr-only">Vyberte možnost, která nejlépe odpovídá vašim očekáváním</legend>
       <div class="space-y-4">
         <div v-for="option in expecationOptions" :key="option.id" class="flex items-center">

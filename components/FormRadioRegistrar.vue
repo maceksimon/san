@@ -1,7 +1,7 @@
 <template>
   <div>
-    <label class="text-base font-semibold text-gray-900">Jsem:</label>
-    <fieldset class="mt-4">
+    <label for="field-registrar" class="text-base font-semibold text-gray-900">Jsem:</label>
+    <fieldset id="field-registrar" class="mt-4">
       <legend class="sr-only">Kdo jste v saunařském světě?</legend>
       <div class="space-y-4">
         <div v-for="option in registrarOptions" :key="option.id" class="flex items-center">

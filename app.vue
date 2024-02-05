@@ -1,6 +1,5 @@
 <template>
   <div>
-    <HeaderBar />
-    <FormNewsletter />
+    <NuxtPage />
   </div>
 </template>

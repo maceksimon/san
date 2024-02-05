@@ -7,6 +7,7 @@ export default defineNuxtConfig({
     '@nuxtjs/tailwindcss',
     '@nuxtjs/sitemap',
   ],
+  pages: true,
   tailwindcss: {
     exposeConfig: true,
     viewer: true,

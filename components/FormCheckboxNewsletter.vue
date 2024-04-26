@@ -7,7 +7,7 @@
           <input id="comments" aria-describedby="comments-description" name="comments" type="checkbox" value="Ano"
             class="h-4 w-4 rounded border-gray-400 text-amber-600 focus:ring-amber-600" checked />
         </div>
-        <div class="ml-3 text-sm leading-6">
+        <div class="ml-3 leading-6">
           <label for="comments" class="font-medium text-gray-900">
             Chci, aby si do mojí schránky našel cestu SANN newsletter.
           </label>

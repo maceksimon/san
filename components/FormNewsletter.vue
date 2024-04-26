@@ -13,17 +13,21 @@
         <FormCheckboxExpectations />
         <FormCheckboxNewsletter />
         <!-- Signup -->
-        <div class="flex justify-end">
-          <button type="submit"
-            class="flex-none rounded-md bg-amber-600 px-3.5 py-2.5 font-semibold text-white shadow-sm hover:bg-amber-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-amber-600">Zapsat
-            se</button>
+        <div class="flex justify-between items-center gap-4">
+          <div>
+            <p class="mt-4 leading-6 text-gray-900">Jak vaše data zpracováváme? Přečtěte si naše <a href="#"
+                class="text-amber-600 hover:text-amber-500">podmínky zpracování osobních údajů</a>.</p>
+            <input type="hidden" name="form-name" value="Registrační formulář" />
+            <p hidden class="sr-only  ">
+              <label>Don’t fill this out: <input name="bot-field" /></label>
+            </p>
+          </div>
+          <div class="shrink-0">
+            <button type="submit" class="flex-none btn btn-primary">
+              Zapsat se
+            </button>
+          </div>
         </div>
-        <p class="mt-4 text-sm leading-6 text-gray-900">Jak vaše data zpracováváme? Přečtěte si naše <a href="#"
-            class="font-semibold text-amber-600 hover:text-amber-500">podmínky zpracování osobních údajů</a>.</p>
-        <input type="hidden" name="form-name" value="Registrační formulář" />
-        <p hidden class="sr-only  ">
-          <label>Don’t fill this out: <input name="bot-field" /></label>
-        </p>
       </div>
     </form>
     <img class="absolute hidden lg:block right-4 lg:top-[160px] w-52 h-auto pointer-events-none" src="/images/eyes.webp" alt="" aria-hidden="true" />

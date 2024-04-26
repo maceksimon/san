@@ -3,9 +3,9 @@
     <div class="max-w-2xl text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl my-10">
       <h2 class="inline sm:block">Přijď na SANN: Jak si postavit saunu</h2>
     </div>
-    <div class="grid lg:grid-cols-5 gap-8 sm:gap-12 lg:gap-16">
-      <div class="lg:col-span-3">
-        <div class="relative bg-teal-400 rounded-3xl p-4 sm:p-6 lg:p-8">
+    <div class="grid md:grid-cols-5 gap-8 sm:gap-12 md:gap-16">
+      <div class="md:col-span-3">
+        <div class="relative bg-teal-400 rounded-3xl p-4 py-6 sm:px-6 lg:py-8 lg:px-8">
           <div class="font-bold sm:text-lg space-y-2">
             <div class="flex flex-wrap gap-2">
               <dt>Termín:</dt><dd>18. - 21.&nbsp;července</dd>
@@ -32,10 +32,10 @@
           <NuxtImg src="/images/prosteradlo_transparent.webp" class="absolute top-4 -right-20 w-48" />
         </div>
       </div>
-      <div class="flex justify-center lg:col-span-2">
+      <div class="flex justify-center md:col-span-2">
         <div class="text-center">
-          <NuxtImg src="/images/sauna_transparent.webp" class="max-h-120" />
-          <NuxtLink to="workshop" class="btn btn-primary min-w-40">
+          <NuxtImg src="/images/sauna_transparent.webp" class="max-h-64 lg:max-h-96" />
+          <NuxtLink to="workshop" class="btn btn-primary min-w-24 mt-4">
             Víc
           </NuxtLink>
         </div>

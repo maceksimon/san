@@ -16,7 +16,7 @@ export default defineNuxtConfig({
       theme: {
         extend: {
           fontFamily: {
-            sans: [...defaultTheme.fontFamily.sans],
+            sans: ['Bicyclette', ...defaultTheme.fontFamily.sans],
           },
           colors: {
             amber: {

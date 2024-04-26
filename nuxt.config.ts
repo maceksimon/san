@@ -4,11 +4,9 @@ import colors from 'tailwindcss/colors'
 
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
-  modules: [
-    '@nuxtjs/tailwindcss',
-    '@nuxtjs/sitemap',
-  ],
+  modules: ['@nuxtjs/tailwindcss', '@nuxtjs/sitemap', "@nuxt/image"],
   pages: true,
+  css: ['~/assets/css/main.css', '~/assets/font/stylesheet.css'],
   tailwindcss: {
     exposeConfig: true,
     viewer: true,
@@ -44,6 +42,19 @@ export default defineNuxtConfig({
               '800': '#7c4f30',
               '900': '#654129',
               '950': '#362114',
+            },
+            teal: {
+              '50': '#f0fbfb',
+              '100': '#d8f4f5',
+              '200': '#b6e8eb',
+              '300': '#83d7dd',
+              '400': '#53bfca',
+              '500': '#2d9fad',
+              '600': '#298191',
+              '700': '#276977',
+              '800': '#275663',
+              '900': '#254954',
+              '950': '#133039',
             },
             gray: colors.stone,
           },

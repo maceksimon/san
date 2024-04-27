@@ -1,6 +1,8 @@
 import tailwindForms from '@tailwindcss/forms'
 import defaultTheme from 'tailwindcss/defaultTheme'
 import colors from 'tailwindcss/colors'
+import typography from '@tailwindcss/typography'
+import { theme } from '#tailwind-config'
 
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
@@ -58,9 +60,31 @@ export default defineNuxtConfig({
             },
             gray: colors.stone,
           },
+          typography: ({ theme }: any) => ({
+            DEFAULT: {
+              css: {
+                '--tw-prose-body': theme('colors.stone[800]'),
+                '--tw-prose-headings': theme('colors.stone[900]'),
+                '--tw-prose-lead': theme('colors.stone[700]'),
+                '--tw-prose-links': theme('colors.amber[900]'),
+                '--tw-prose-bold': theme('colors.stone[900]'),
+                '--tw-prose-counters': theme('colors.stone[600]'),
+                '--tw-prose-bullets': theme('colors.amber[400]'),
+                '--tw-prose-hr': theme('colors.stone[300]'),
+                '--tw-prose-quotes': theme('colors.stone[900]'),
+                '--tw-prose-quote-borders': theme('colors.stone[300]'),
+                '--tw-prose-captions': theme('colors.stone[700]'),
+                '--tw-prose-code': theme('colors.stone[900]'),
+                '--tw-prose-pre-code': theme('colors.stone[100]'),
+                '--tw-prose-pre-bg': theme('colors.stone[900]'),
+                '--tw-prose-th-borders': theme('colors.amber[300]'),
+                '--tw-prose-td-borders': theme('colors.amber[200]'),
+              }
+            }
+          }),
         },
       },
-      plugins: [tailwindForms],
+      plugins: [tailwindForms, typography],
     },
   },
   devtools: { enabled: true },

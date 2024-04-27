@@ -1,43 +1,21 @@
 <template>
   <div class="space-y-8">
-    <div class="max-w-2xl text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl my-10">
-      <h2 class="inline sm:block">Přijď na SANN: Jak si postavit saunu</h2>
-    </div>
-    <div class="grid md:grid-cols-5 gap-8 sm:gap-12 md:gap-16">
-      <div class="md:col-span-3">
-        <div class="relative bg-teal-400 rounded-3xl p-4 py-6 sm:px-6 lg:py-8 lg:px-8">
-          <div class="font-bold sm:text-lg space-y-2">
-            <div class="flex flex-wrap gap-2">
-              <dt>Termín:</dt><dd>18. - 21.&nbsp;července</dd>
+    <div>
+      <div>
+        <div class="grid md:grid-cols-5 gap-8 sm:gap-12 md:gap-16">
+          <div class="md:col-span-3">
+            <div class="relative max-w-2xl text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl my-10">
+              <h2 class="inline sm:block my-0">Jak si postavit saunu</h2>
+
+              <NuxtImg src="/images/vikendovy_workshop_transparent.webp" alt="víkendový workshop"
+              class="absolute -top-12 right-0 rotate-6 max-h-24" />
             </div>
-            <div class="flex flex-wrap gap-2">
-              <dt>Lokalita:</dt><dd>louka a loděnice NUUK, Hradec Králové</dd>
-            </div>
-            <div class="flex flex-wrap gap-2">
-              <dt>Cena:</dt><dd>12.500&nbsp;Kč členové sann / 14.000&nbsp;Kč klasik</dd>
-            </div>
-            <div class="flex flex-wrap gap-2">
-              <dt>Kapacita:</dt><dd>10&nbsp;lidí</dd>
-            </div>
-            <dt>Průvodci:</dt>
-              <dd class="font-normal">
-                <ul class="pl-4 sm:pl-6 space-y-2">
-                  <li><b>Marianna Maczova</b> - architektka, Woven, účastnice WS stavby sauny ve Finsku</li>
-                  <li><b>Branislav Jurčák</b> - inženýr všeho s vůní dřeva a realizátor saunových konstrukcí</li>
-                  <li><b>Peter Jančár</b> - spoluzakladatel SSC, CEO Woodmaster SK a konzultant saunových koster</li>
-                  <li><b>Aneta Kohoutová a Natálie Kratochvíle</b> - provozovatelky sauny NUUK a zažehávačky saunové asociace nezávislých nadšenců SANN</li>
-                </ul>
-              </dd>
+            <p class="text-lg">Workshop provede účastníky základními principy stavby sauny způsobem hands-on. Posvítí si na otázku designu při rozmisťování základních prvků jako lavice, pec nebo dveře, stejně jako poodkryje tajemství přirozené cirkulace vzduchu. Všechny hypotézy otestujeme společným pocením a stavbou, která zanechá váš nesmazatelný otisk v labský zátočině a srdci sauny NUUK.</p>
+            <NuxtLink to="/vikendovy-workshop-jak-postavit-saunu" class="btn btn-primary mt-10">Víc informací</NuxtLink>
           </div>
-          <NuxtImg src="/images/prosteradlo_transparent.webp" class="absolute top-4 -right-20 w-48" />
-        </div>
-      </div>
-      <div class="flex justify-center md:col-span-2">
-        <div class="text-center">
-          <NuxtImg src="/images/sauna_transparent.webp" class="max-h-64 lg:max-h-96" />
-          <NuxtLink to="workshop" class="btn btn-primary min-w-24 mt-4">
-            Víc
-          </NuxtLink>
+          <div class="md:col-span-2">
+            <NuxtImg src="/images/sauna-schema.webp" class="max-h-80" alt="víkendový workshop" />
+          </div>
         </div>
       </div>
     </div>

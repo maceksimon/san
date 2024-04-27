@@ -3,7 +3,7 @@
     <HeaderBar />
     <h1 class="sr-only">Saunařská asociace nezávislých nadšenců</h1>
     <div class="relative mx-auto max-w-7xl px-6 lg:px-8">
-      <EventInvitation class="my-10 sm:my-12 lg:my-16" />
+      <EventInvitation class="my-10 sm:my-12 lg:my-24" />
       <FormNewsletter class="my-10 sm:my-12 lg:my-16" />
     </div>
   </div>

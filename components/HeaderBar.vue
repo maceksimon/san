@@ -28,4 +28,6 @@
   </header>
 </template>
 
-<script setup></script>
+<script setup>
+const navigation = []
+</script>

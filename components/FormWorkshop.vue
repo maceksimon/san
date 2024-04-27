@@ -1,6 +1,6 @@
 <template>
   <div class="relative">
-    <form netlify name="Workshop formulář" method="post" action="/success" data-netlify="true"
+    <form netlify name="Workshop" method="post" action="/success" data-netlify="true"
       data-netlify-honeypot="bot-field" class="grid md:grid-cols-5 gap-y-8 gap-x-16">
       <div class="md:col-span-3 space-y-8">
         <div class="max-w-2xl text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">

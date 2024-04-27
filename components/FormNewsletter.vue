@@ -19,7 +19,7 @@
         <div class="flex justify-between items-center gap-4">
           <div>
             <p class="mt-4 leading-6 text-gray-900">Odesláním formuláře souhlasíte se <NuxtLink to="/ochrana-osobnich-udaju"
-                class="text-amber-600 hover:text-amber-500">zpracováním osobních údajů</NuxtLink>.</p>
+                class="text-amber-600 hover:text-amber-500 underline">zpracováním osobních údajů</NuxtLink>.</p>
             <input type="hidden" name="form-name" value="Registrační formulář" />
             <p hidden class="sr-only  ">
               <label>Don’t fill this out: <input name="bot-field" /></label>

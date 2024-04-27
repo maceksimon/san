@@ -66,7 +66,7 @@ export default defineNuxtConfig({
                 '--tw-prose-body': theme('colors.stone[800]'),
                 '--tw-prose-headings': theme('colors.stone[900]'),
                 '--tw-prose-lead': theme('colors.stone[700]'),
-                '--tw-prose-links': theme('colors.amber[900]'),
+                '--tw-prose-links': theme('colors.amber[600]'),
                 '--tw-prose-bold': theme('colors.stone[900]'),
                 '--tw-prose-counters': theme('colors.stone[600]'),
                 '--tw-prose-bullets': theme('colors.amber[400]'),

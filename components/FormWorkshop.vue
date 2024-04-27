@@ -6,13 +6,16 @@
         <div class="max-w-2xl text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
           <h2 class="inline sm:block">Přihlaš se</h2>
         </div>
+        <div class="prose prose-lg">
+          <p>Vyplň formulář, nebo nám napiš na <a href="mailto:ahoj.sann@gmail.com">ahoj.sann@gmail.com</a>.</p>
+        </div>
         <InputFullName />
         <InputEmail />
         <!-- Signup -->
         <div class="flex justify-between items-center gap-4">
           <div>
             <p class="mt-4 leading-6 text-gray-900">Odesláním formuláře souhlasíte se <NuxtLink to="/ochrana-osobnich-udaju"
-                class="text-amber-600 hover:text-amber-500">zpracováním osobních údajů</NuxtLink>.</p>
+                class="text-amber-600 hover:text-amber-500 underline">zpracováním osobních údajů</NuxtLink>.</p>
             <input type="hidden" name="form-name" value="Registrační formulář" />
             <p hidden class="sr-only  ">
               <label>Don't fill this out: <input name="bot-field" /></label>

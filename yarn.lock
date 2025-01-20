@@ -1331,9 +1331,9 @@
     vue-bundle-renderer "^2.1.0"
 
 "@nuxtjs/sitemap@^7.0.0":
-  version "7.2.1"
-  resolved "https://registry.yarnpkg.com/@nuxtjs/sitemap/-/sitemap-7.2.1.tgz#0c0b49c9d9ea8f08de08629aed94b45bc929b363"
-  integrity sha512-CktTq/zxUelv2KTJqAbq5gxN9lRTxoLc2RW3d2PuA3D62qKvvwLH+5zc+OxRlskAjfx86Ex7UnP/B69TCa7GJg==
+  version "7.2.2"
+  resolved "https://registry.yarnpkg.com/@nuxtjs/sitemap/-/sitemap-7.2.2.tgz#d972ec8a868f38c762dc1acde16710cff8ddbd30"
+  integrity sha512-6tBpNuCBIkQy9k1WK58fpbWod5wK6TlMpRJd4r7d4G+ACSYtSOgNCXDHmzmmtpBF1eqwTBJjXSMZT/I8zB8UPA==
   dependencies:
     "@nuxt/devtools-kit" "^2.0.0-beta.3"
     "@nuxt/kit" "^3.15.2"
@@ -4729,9 +4729,9 @@ node-addon-api@^7.0.0:
   integrity sha512-5m3bsyrjFWE1xf7nz7YXdN4udnVtXK6/Yfgn5qnahL6bCkf2yKt4k3nuTKAtT4r3IG8JNR2ncsIMdZuAzJjHQQ==
 
 node-fetch-native@^1.6.3, node-fetch-native@^1.6.4:
-  version "1.6.4"
-  resolved "https://registry.yarnpkg.com/node-fetch-native/-/node-fetch-native-1.6.4.tgz#679fc8fd8111266d47d7e72c379f1bed9acff06e"
-  integrity sha512-IhOigYzAKHd244OC0JIMIUrjzctirCmPkaIfhDeGcEETWof5zKYUW7e7MYvChGWh/4CJeXEgsRyGzuF334rOOQ==
+  version "1.6.6"
+  resolved "https://registry.yarnpkg.com/node-fetch-native/-/node-fetch-native-1.6.6.tgz#ae1d0e537af35c2c0b0de81cbff37eedd410aa37"
+  integrity sha512-8Mc2HhqPdlIfedsuZoc3yioPuzp6b+L5jRCRY1QzuWZh2EGJVQrGppC6V6cF0bLdbW0+O2YpqCA25aF/1lvipQ==
 
 node-fetch@^2.6.7:
   version "2.7.0"
